@@ -1,0 +1,110 @@
+* {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+}
+.header {
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  z-index: 5;
+/*flexstuff*/
+  display:flex;
+  align-items: center;
+}
+
+.headerimg {
+  position: relative;
+  left: 10px;
+  height: 50px;
+}
+
+nav {
+  position: relative;
+  left: 50%;
+  text-decoration: underline;
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+#size1 {
+  font-size: 35px;
+}
+
+#size2 {
+  font-size: 25px;
+}
+
+/*mainbody*/
+.intro {
+  position: relative;
+  top: 69px;
+  left: 60px;
+/*Note to anybody reading this: Is there anyway to make sure new blocks of code don't automaticaaly cover the header?*/
+  height: 700px;
+  width: 1200px;
+}
+
+.introtext{
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  opacity: 0.9;
+  text-align: center;
+  padding: 20px;
+}
+
+.TeaMonth {
+  width: 1000px;
+  position: absolute;
+  top: 900px;
+  left: 180px;
+  text-align: center;
+}
+/*Is there a way to automatically position new content under relatively positioned content?*/
+.boxes {
+  position: absolute;
+  left: 12%;
+  top: 1050px;
+  display: inline-flex;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.boxes img {
+  height: 200px;
+  width: 300px;
+}
+
+.boxes p {
+  display: flex;
+  justify-content: center;
+}
+
+.location {
+  position: relative;
+  top: 1000px;
+  height: 500px;
+  overflow:hidden;
+}
+
+.locationimg {
+  position: absolute;
+  top: 50px;
+  opacity: 1;
+  text-align: center;
+  padding: 20px;
+/*flex*/
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  align-items: flex-end;
+}
+
+.End {
+  position: relative;
+  top: 1000px;
+}
